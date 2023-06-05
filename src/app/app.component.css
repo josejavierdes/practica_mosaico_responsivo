@@ -1,0 +1,98 @@
+.grid-parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 60px;
+}
+
+.numero{
+    display: flex;
+    background-color: rgb(94, 93, 93) ;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+@keyframes color-change {
+    0% {
+      background-color: rgb(123, 123, 123);
+    }
+    20% {
+        background-color: rgb(149, 149, 149);
+      }
+    40% {
+        background-color: rgb(152, 152, 152);
+      }
+    60% {
+        background-color: rgb(99, 97, 97);
+      }
+      80% {
+        background-color: rgb(80, 80, 80);
+      }
+      100% {
+        background-color: rgb(123, 123, 123);
+      }
+
+  }
+
+@keyframes scale-animation {
+    0%, 100% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+@media (max-width: 695px){
+
+    .numero{
+        padding: 20px;
+        margin-left: 20px;
+        width: 270px;
+        justify-content: space-around;
+        animation: scale-animation 3s infinite, color-change 5s infinite;
+    }
+
+    .numero:nth-child(2)::after,
+    .numero:nth-child(3)::after,
+    .numero:nth-child(5)::after,
+    .numero:nth-child(7)::after,
+    .numero:nth-child(11)::after,
+    .numero:nth-child(13)::after,
+    .numero:nth-child(17)::after,
+    .numero:nth-child(19)::after,
+    .numero:nth-child(23)::after,
+    .numero:nth-child(29)::after,
+    .numero:nth-child(31)::after,
+    .numero:nth-child(37)::after,
+    .numero:nth-child(41)::after,
+    .numero:nth-child(43)::after,
+    .numero:nth-child(47)::after,
+    .numero:nth-child(53)::after,
+    .numero:nth-child(59)::after,
+    .numero:nth-child(61)::after,
+    .numero:nth-child(67)::after,
+    .numero:nth-child(71)::after,
+    .numero:nth-child(73)::after,
+    .numero:nth-child(79)::after,
+    .numero:nth-child(83)::after,
+    .numero:nth-child(89)::after,
+    .numero:nth-child(97)::after  {
+        display: flex;
+        align-items: center;
+        content: "Número Primo";
+        color: white;
+        background-color: rgb(42, 241, 39);
+        width: 270px;
+        height: 200px;
+        padding: 10px;
+        margin-left: 90px;
+        text-align: center;
+
+    }
+    
+}
