@@ -4,40 +4,121 @@
     gap: 60px;
 }
 
-.numero{
+.num{
     display: flex;
     background-color: rgb(94, 93, 93) ;
     height: 200px;
     width: 200px;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
-    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 65px;
+    color: rgb(0, 0, 0);
 
     
 }
 
-@keyframes color-change {
-    0% {
-      background-color: rgb(123, 123, 123);
-    }
-    20% {
-        background-color: rgb(149, 149, 149);
-      }
-    40% {
-        background-color: rgb(202, 202, 202);
-      }
-    60% {
-        background-color: rgb(99, 97, 97);
-      }
-      80% {
-        background-color: rgb(38, 38, 38);
-      }
-      100% {
-        background-color: rgb(123, 123, 123);
-      }
+.numero1{background-color:#ff8383;}
+.numero2{background-color:#adffad;}
+.numero3{background-color:#8282ff;}
+.numero4{background-color:#ffffa0;}
+.numero5{background-color:#ff4effa5;}
+.numero6{background-color:#87ffff;}
+.numero7{background-color:#a24141;}
+.numero8{background-color:#75af75;}
+.numero9{background-color:#6b6bd4;}
+.numero10{background-color:#dede85;}
+.numero11{background-color:#8000807e;}
+.numero12{background-color:#6d9898;}
+.numero13{background-color:#C0C0C0;}
+.numero14{background-color:#808080;}
+.numero15{background-color:#FF99CC;}
+.numero16{background-color:#FFCC99;}
+.numero17{background-color:#99CCFF;}
+.numero18{background-color:#99FFCC;}
+.numero19{background-color:#CC99FF;}
+.numero20{background-color:#CCFF99;}
+.numero21{background-color:#FF9999;}
+.numero22{background-color:#99FF99;}
+.numero23{background-color:#9999FF;}
+.numero24{background-color:#7a7a64;}
+.numero25{background-color:#99FFFF;}
+.numero26{background-color:#bf45bf;}
+.numero27{background-color:#FF9966;}
+.numero28{background-color:#99FF66;}
+.numero29{background-color:#6699FF;}
+.numero30{background-color:#909030;}
+.numero31{background-color:#66FFFF;}
+.numero32{background-color:#FF66FF;}
+.numero33{background-color:#FF6666;}
+.numero34{background-color:#66FF66;}
+.numero35{background-color:#6666FF;}
+.numero36{background-color:#FFCC66;}
+.numero37{background-color:#66FFCC;}
+.numero38{background-color:#da90ff;}
+.numero39{background-color:#ffc29a;}
+.numero40{background-color:#abde89;}
+.numero41{background-color:#0066FF;}
+.numero42{background-color:#72374f;}
+.numero43{background-color:#94c7a8;}
+.numero44{background-color:#494254;}
+.numero45{background-color:#805f49;}
+.numero46{background-color:#427757;}
+.numero47{background-color:#6600FF;}
+.numero48{background-color:#c78052;}
+.numero49{background-color:#00FF66;}
+.numero50{background-color:#3d2b5a;}
+.numero51{background-color:#d4e084;}
+.numero52{background-color:#50d384;}
+.numero53{background-color:#582f95;}
+.numero54{background-color:#ff9f5f;}
+.numero55{background-color:#195431;}
+.numero56{background-color:#211730;}
+.numero57{background-color:#745846;}
+.numero58{background-color:#00FF66;}
+.numero59{background-color:#8b819a;}
+.numero60{background-color:#85502e;}
+.numero61{background-color:#506b5b;}
+.numero62{background-color:#bb8eff;}
+.numero63{background-color:#8e725f;}
+.numero64{background-color:#00FF66;}
+.numero65{background-color:#5924a8;}
+.numero66{background-color:#85776d;}
+.numero67{background-color:#03c852;}
+.numero68{background-color:#634989;}
+.numero69{background-color:#3f622a;}
+.numero70{background-color:#8761a4;}
+.numero71{background-color:#6600FF;}
+.numero72{background-color:#676360;}
+.numero73{background-color:#434343;}
+.numero74{background-color:#7d51c1;}
+.numero75{background-color:#643d22;}
+.numero76{background-color:#6a8d78;}
+.numero77{background-color:#a497b8;}
+.numero78{background-color:#d6c6ba;}
+.numero79{background-color:#676767;}
+.numero80{background-color:#6600FF;}
+.numero81{background-color:#c5c5c5;}
+.numero82{background-color:#13783b;}
+.numero83{background-color:#6600ff7c;}
+.numero84{background-color:#ba815b;}
+.numero85{background-color:#97ffc0;}
+.numero86{background-color:#997dc4;}
+.numero87{background-color:#b6a498;}
+.numero88{background-color:#a4e5be;}
+.numero89{background-color:#00ff6e;}
+.numero90{background-color:#d4df8c;}
+.numero91{background-color:#47805d;}
+.numero92{background-color:#644b8a;}
+.numero93{background-color:#9f6137;}
+.numero94{background-color:#00FF66;}
+.numero95{background-color:#8e53e6;}
+.numero96{background-color:#694c39;}
+.numero97{background-color:#34d072;}
+.numero98{background-color:#8761c1;}
+.numero99{background-color:#5ec4ce;}
+.numero100{background-color:#00FF66;}
 
-  }
 
 @keyframes scale-animation {
     0%, 100% {
@@ -49,50 +130,53 @@
   }
 @media (max-width: 695px){
 
-    .numero{
+    .num{
         padding: 20px;
         margin-left: 20px;
         width: 270px;
         justify-content: space-around;
-        animation: scale-animation 3s infinite, color-change 5s infinite;
+        animation: scale-animation 3s infinite;
     }
 
-    .numero:nth-child(2)::after,
-    .numero:nth-child(3)::after,
-    .numero:nth-child(5)::after,
-    .numero:nth-child(7)::after,
-    .numero:nth-child(11)::after,
-    .numero:nth-child(13)::after,
-    .numero:nth-child(17)::after,
-    .numero:nth-child(19)::after,
-    .numero:nth-child(23)::after,
-    .numero:nth-child(29)::after,
-    .numero:nth-child(31)::after,
-    .numero:nth-child(37)::after,
-    .numero:nth-child(41)::after,
-    .numero:nth-child(43)::after,
-    .numero:nth-child(47)::after,
-    .numero:nth-child(53)::after,
-    .numero:nth-child(59)::after,
-    .numero:nth-child(61)::after,
-    .numero:nth-child(67)::after,
-    .numero:nth-child(71)::after,
-    .numero:nth-child(73)::after,
-    .numero:nth-child(79)::after,
-    .numero:nth-child(83)::after,
-    .numero:nth-child(89)::after,
-    .numero:nth-child(97)::after  {
+    .num:nth-child(2)::after,
+    .num:nth-child(3)::after,
+    .num:nth-child(5)::after,
+    .num:nth-child(7)::after,
+    .num:nth-child(11)::after,
+    .num:nth-child(13)::after,
+    .num:nth-child(17)::after,
+    .num:nth-child(19)::after,
+    .num:nth-child(23)::after,
+    .num:nth-child(29)::after,
+    .num:nth-child(31)::after,
+    .num:nth-child(37)::after,
+    .num:nth-child(41)::after,
+    .num:nth-child(43)::after,
+    .num:nth-child(47)::after,
+    .num:nth-child(53)::after,
+    .num:nth-child(59)::after,
+    .num:nth-child(61)::after,
+    .num:nth-child(67)::after,
+    .num:nth-child(71)::after,
+    .num:nth-child(73)::after,
+    .num:nth-child(79)::after,
+    .num:nth-child(83)::after,
+    .num:nth-child(89)::after,
+    .num:nth-child(97)::after  {
         display: flex;
         align-items: center;
         content: "Número Primo";
-        color: white;
-        background-color: rgb(42, 241, 39);
-        width: 270px;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        background-color: rgb(57, 57, 57);
+        width: 240px;
         height: 200px;
-        padding: 10px;
+        padding: 5px;
+        border-radius: 50px;
         margin-left: 90px;
         text-align: center;
 
     }
     
 }
+
